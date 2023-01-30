@@ -82,7 +82,7 @@
 				#address-cells = <1>;
 				#size-cells = <0>;
 
-				compatible = "flir,lepton2";
+				compatible = "flir,lepton2", "flir,lepton3";
 
 				/* SPI setup
 				 *
