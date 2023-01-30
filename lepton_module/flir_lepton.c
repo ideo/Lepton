@@ -630,7 +630,7 @@ static int lepton_probe(struct spi_device *spi)
 	 */
 
 	// @@@ need lepton version and telemetry module parameters
-	init_lepton_info(&lep->lep_vospi_info, LEPTON_VERSION_2X, TELEMETRY_OFF);
+	init_lepton_info(&lep->lep_vospi_info, LEPTON_VERSION_3X, TELEMETRY_OFF);
 
 	/* initialize v4l2_device -- used for tracking relationships among 
 	 * video-related hardware managed by the V4L2 subsystem 
